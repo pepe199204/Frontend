@@ -1,0 +1,29 @@
+//la etiqueta figure es una etiqueta semantica,
+es el contenedor de una imagen, tiene una subetiqueta
+que es llama fig caption = con esta el naveagador sabe
+que es una imagen y te puede dar una mejor experiencia.
+
+//La hoja de estilos normalize nos permite aplicar
+un estilo por defecto a nuestro html
+
+//em son medidas relativas, toma como unidad su padre
+mas cercano y ver su tamaño: ejemplo: 1 em es el 100%
+si colocamos 0.5 em es el 50%
+
+//Foundation es un framework de css
+
+//estas lineas son para instalar package control,en
+sublimetext 2
+
+import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
+
+//Foundation trabaja con oocss(object-oriented css), nos motiva a trabajar todos los estilos
+apunta de clases, por que las clases es tener una sola jerarquia y que vayamos usando. Otra 
+cosa con la que nos ayuda las clases es que un tag puede tener N clases y no importa, mientras
+que un tag puede tener un solo id. Foundation trabaja con filas y columnas para crear el 
+layout b'asico. Filas son todo el ancho de la aplicaci'on y pueden tener dentro de ellas 
+multiples columnas(max 12 columnas). Foundation es muy explicito, el nombre de las clases es
+en ingles literal.Equalizer toma el valor mas grande y hereda a los otros 
+
+
+

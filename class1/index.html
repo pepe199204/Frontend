@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>This is a blog based in foundation</title>
+	<link rel="stylesheet" href="foundation-5.4.0/css/foundation.css" />
+    <script src="foundation-5.4.0/js/vendor/modernizr.js"></script>
+</head>
+<body>
+	<header class="row">
+		<h1>
+			This is a blog based in foundation
+		</h1>
+	</header>
+	<section class="row">
+		<section class="small-12 medium-8 large-7 columns">
+			<article class="row panel">
+				<h2>Title post</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, tempora blanditiis illo reprehenderit necessitatibus at ducimus, aut fuga facere, eveniet commodi, explicabo praesentium nisi ratione eaque provident obcaecati quod nostrum.	
+				</p>
+				<a href="" class="button radius round">go to post</a>
+			</article>
+			<article class="row panel">
+				<h2>Title post</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, tempora blanditiis illo reprehenderit necessitatibus at ducimus, aut fuga facere, eveniet commodi, explicabo praesentium nisi ratione eaque provident obcaecati quod nostrum.
+				</p>
+				<a href="" class="button small">go to post</a>
+				<a href="" class="button medium">go to post</a>
+				<a href="" class="button large">go to post</a>
+			</article>
+		</section>
+		<section class="small-12 medium-4 large-4 columns">
+			<!--Equalizer toma el valor mas grande y hereda a los otros-->
+			<section class="row" data-equalizer>
+				<!--Para los hijos que heredan el valor se debe agregar / watch-->
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, tempora blanditiis illo reprehenderit necessitatibus at ducimus.
+					</p>
+				</article>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, tempora blanditiis illo reprehenderit necessitatibus at ducimus, aut fuga facere, eveniet commodi.
+					</p>
+				</article>
+			</section>	
+			<section class="row" data-equalizer>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, tempora blanditiis illo reprehenderit necessitatibus at ducimus.
+					</p>
+				</article>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, tempora blanditiis illo reprehenderit necessitatibus at ducimus, aut fuga facere, eveniet commodi.
+					</p>
+				</article>
+			</section>
+		</section> 
+	</section>
+	<!--<section class="row">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, tempora blanditiis illo reprehenderit necessitatibus at ducimus, aut fuga facere, eveniet commodi, explicabo praesentium nisi ratione eaque provident obcaecati quod nostrum.
+	</section>-->
+	<script src="foundation-5.4.0/js/vendor/jquery.js"></script>
+    <script src="foundation-5.4.0/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+</body>
+</html>
