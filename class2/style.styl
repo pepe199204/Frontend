@@ -1,0 +1,49 @@
+//para lograr crear efectos con nib debemos importar las librerias de vendor
+@import 'nib/vendor'
+@import 'nib/gradients'
+/*y adicionamos una variable para los prefijos de los navegadores:
+o(opera) ms(microsoft) moz(mozilla) webkit(chrome) official*/
+vendor-prefixes = o ms moz webkit official
+body
+	background blue
+.btn
+	background red
+	border 1px solid orange
+	color white
+	border-radius 5px
+	text-transform uppercase
+	transition 1s background
+	&:hover
+		background green
+	&.yellow
+		background yellow
+		&:hover
+			background orange
+
+.father
+	background linear-gradient(top,white,black)
+	padding 200px
+	.son
+		font-size 100px
+
+.container
+	background white
+	height 0
+	overflow hidden
+	padding-bottom 56.25%
+	padding-top 30px
+	position relative
+.container iframe,
+.container object,
+.container embed,
+.container video
+	height 100%
+	left 0
+	position absolute
+	top 0
+	width 100%
+#wrapper
+	max-width 100px
+	margin auto
+	
+	

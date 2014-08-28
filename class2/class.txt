@@ -1,0 +1,29 @@
+//stylus es un preprocesador de css, que nos ayuda al momento de creas css y nos entrega un
+archivo final .css
+
+//para instalar stylus debemos primero instalar node.js por que sobre node.js es que
+va a trabajar stylus. Luego de instalar node.js procedemos a instalar stylus, abrimos 
+la consola de comandos cmd y escribimos lo siguiente: npm install -g stylus
+
+//para compilar stylus se debe hacer lo siguiente en 
+cmd, 1 navegamos hasta la ubicaci'on de nuestro
+proyecto y luego copiamos:
+stylus -c style.styl
+
+//Si queremos que nuestro archivo css se siga
+actualizando sin necesidad de volver a compilar 
+copiamos:
+stylus -c -w style.styl
+para terminar este proceso le damos ctrl+c
+
+
+//nib nos permite hacer cosas mas r'apidas dentro de
+stylus, nib hace funciones y mixes en stylus, nos ahorra
+el trabajo. Para instalarlo se debe hacer lo siguiente
+en cmd:
+npm install -g nib
+
+//Para compliar stylus junto con nib:
+stylus -u nib -c -w style.styl
+
+
