@@ -1,0 +1,31 @@
+//media query es una consulta a los medios, para saber
+
+//width auto, resetea el valor de los anchos, el ancho seria lo que tenga el display
+
+//seudoelementos, sirven para añadir elementos de diseño al contenido
+en los seudoelementos siempre debes de poner la propiedad content para que pueda renderear
+de lo contrairo no lo mostrara
+
+//para realizar animaciones necesitamos agregar la propiedad
+animation
+//luego añadimos un keyframes
+//necesitamos añadir un prefijo para que lo soporte el navegador
+-khtml- (Konqueror, really old Safari)
+-moz- (Firefox)
+-o- (Opera)
+-ms- (Internet Explorer)
+-webkit- (Safari, Chrome)
+
+//mixins
+son funciones que son van a servir en el futuro para reutilizar c'odigo, en otras palabras
+es una funci'on
+
+//nib es un conjunto mixins hecho para stylus
+para compilar con nib 
+stylus -u nib -c -w -o css/ stylus/style.styl
+
+//luego vamos a importar nib
+@import "nib"
+
+//para personalizar los prefijos utilizamos vender-prefixes
+vendor-prefixes = webkit o ms moz official
